@@ -1,0 +1,25 @@
+<div class="container">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s8 offset-s2">
+          <input id="username" type="text" ng-model="user" class="validate">
+          <label for="username">Usuario</label>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="input-field col s8 offset-s2">
+          <input id="password" type="password" ng-model="pass" class="validate">
+          <label for="password">Contraseña</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s4 offset-s4">
+          <button class="btn waves-effect waves-light deep-purple" type="submit" name="action">Enviar
+            <i class="material-icons right">send</i>
+          </button>
+          <a class="waves-effect waves-light btn deep-purple" ui-sref="inicio">Cancelar</a>
+        </div>
+      </div>
+    </form>
+</div>    
+
